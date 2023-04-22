@@ -1,5 +1,8 @@
+import { Dialog__Title } from "./_internal/Dialog__Title";
+import Dialog__Root from "./_internal/Dialog__Root";
+import { Dialog__Description } from "./_internal/Dialog__Description";
 
-import {Title} from "./_internal/Title";
-import Root from "./_internal/Root";
-
-export default Object.assign(Root,{Title});
+export default Object.assign(Dialog__Root, {
+  Title: Dialog__Title,
+  Description: Dialog__Description,
+});
